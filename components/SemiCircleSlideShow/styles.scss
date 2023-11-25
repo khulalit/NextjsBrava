@@ -1,0 +1,22 @@
+.scrollWrapper{
+    margin-block: 4rem;
+    width: 100%;
+    overflow: hidden;
+}
+.scrollingTextContainer {
+    overflow: hidden;
+    width: fit-content;
+    display: flex;
+    gap : 2rem;
+    overflow: hidden;
+    animation: scroll 50s linear 0s infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

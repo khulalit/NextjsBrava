@@ -1,0 +1,28 @@
+.carousel{
+    position: relative;
+
+    .text{
+        position: absolute;
+        top: 20%;
+        .btn-outline{
+            border: 2px solid white;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 0.5rem;
+            border-radius: 1.5rem;
+            color: white;
+        }
+        .btn-outline:hover{
+            background-color: white;
+            color: #383736;
+        }
+        text-align: start;
+        span{
+            word-spacing: 9999px;
+            font-size: 72px;
+            color: white;
+            font-weight: 800;
+        }
+    }
+
+}

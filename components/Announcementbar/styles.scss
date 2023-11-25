@@ -1,0 +1,18 @@
+@import '../../scss/globalVariables.scss';
+
+$padding: 12px;
+$fontSize: 0.8125rem;
+$fontWeight: 700;
+$fontColor: #000;
+
+.announcement-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $backgroundColor;
+    padding-block: $padding;
+    font-size: $fontSize;
+    text-transform: uppercase;
+    color: $fontColor;
+    font-weight: $fontWeight;
+}

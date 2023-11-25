@@ -1,0 +1,51 @@
+$color1 : #091F2C;
+$color2 : #000;
+$color3 : #A252D0;
+$color4 : #1B56A9;
+$brandnamesize : 28px;
+$shopnow: 18px;
+
+
+.bg-color-1{
+    background-color: $color1;
+}
+.bg-color-2{
+    background-color: $color2;
+}
+.bg-color-3{
+    background-color: $color4;
+}
+.bg-color-4{
+    background-color: $color3;
+}
+.bg-color-5{
+    background-color: $color2;
+}
+
+.brand-card{
+    display: flex;
+    color: white;
+    width: 400px;
+    justify-content: space-between;
+
+    border-radius: calc(75px + 0rem) 10px 10px calc(75px + 0rem);
+    .brand-image{
+        border-radius: 50%;
+    }
+
+    .brand-info{
+        padding: 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: end;
+
+        h3{
+            margin-bottom: auto;
+            font-size: $brandnamesize;
+            font-weight: 700;
+            line-height: 2rem;
+        }
+    }
+
+}

@@ -1,0 +1,41 @@
+@import '../../../scss/globalVariables.scss';
+.link {
+    display: flex;
+    align-items: center;
+    a {
+        display: inline-block;
+        // padding: 5px 0;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 1rem;
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        gap: 4px;
+    }
+    .icon{
+        margin-top: 2px;
+    }
+    a:before {
+        content: '';
+        background: $backgroundColor;
+        display: block;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 0;
+        height: 1px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+        background-position: 0;
+        color: $backgroundColor;
+    }
+
+    a:hover::before {
+        width: 100%;
+    }
+}
